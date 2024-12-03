@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="w-full px-20 h-20 flex justify-center items-center">
         <Link href="https://github.com/superaaaaser">
           {" "}
-          <i className="bx bxl-github text-[40px]"></i>
+          <i className="bx bxl-github text-[40px] dark:text-zinc-100"></i>
         </Link>
       </div>
     </>

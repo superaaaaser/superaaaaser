@@ -18,6 +18,7 @@ export default {
       },
       boxShadow: {
         "no-blur": "2px 2px 0px rgba(0, 0, 0, 1)",
+        "no-blur-dark": "2px 2px 0px rgba(244, 244, 245, 1)",
       },
     },
   },

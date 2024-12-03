@@ -8,7 +8,7 @@ export default function Hero() {
         </div>
         <div>
           Junior
-          <span>Develover</span>
+          <span> Develover...</span>
         </div>
       </div>
       <div className="lg:w-1/2 h-3/4 border border-zinc-900">hjjhjh</div>
