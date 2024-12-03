@@ -8,9 +8,16 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["jetbrains-mono", "monospace"],
+        jetbrains: ["jetbrains-mono", "monospace"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      boxShadow: {
+        "no-blur": "2px 2px 0px rgba(0, 0, 0, 1)",
       },
     },
   },
