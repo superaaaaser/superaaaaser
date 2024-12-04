@@ -1,5 +1,5 @@
 import Card from "../ui/Card/Index";
-import QrCode from "../Icon/Index";
+
 export default function Project() {
   return (
     <div className="px-12 md:px-24 py-20">
@@ -16,7 +16,6 @@ export default function Project() {
           elit. Nisi a numquam, consequuntur officiis, suscipit aperiam
           perspiciatis facere voluptate cumque tempore quas quis natus, ipsa
           dolorum distinctio corrupti doloribus ab amet.
-          <QrCode />
         </Card>
         <Card className="">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat
