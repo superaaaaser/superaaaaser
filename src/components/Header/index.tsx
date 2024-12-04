@@ -14,13 +14,13 @@ export default function Header() {
         </div>
         <div className="flex flex-row gap-2">
           <Button
-            className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium
+            className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium py-1 px-3
           "
           >
             Dowload CV
           </Button>
-          <Button className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium p-3">
-            <SunIcon className=" text-zinc-100 border-zinc-100"></SunIcon>
+          <Button className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium p-1">
+            <SunIcon className="text-zinc-100 fill-current"></SunIcon>
           </Button>
         </div>
       </div>
