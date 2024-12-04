@@ -1,5 +1,6 @@
 "use client";
 import Button from "../ui/Button";
+import SunIcon from "../Icon/SunIcon";
 
 export default function Header() {
   return (
@@ -18,8 +19,8 @@ export default function Header() {
           >
             Dowload CV
           </Button>
-          <Button className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium">
-            <i>h</i>
+          <Button className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium p-3">
+            <SunIcon className=" text-zinc-100 border-zinc-100"></SunIcon>
           </Button>
         </div>
       </div>
