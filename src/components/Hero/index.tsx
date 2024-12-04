@@ -6,12 +6,9 @@ export default function Hero() {
         <div className="text-[50px]">
           Im <span className="bg-zinc-900 text-zinc-100">superaaaaser</span>
         </div>
-        <div>
-          Junior
-          <span> Develover...</span>
-        </div>
+        <div>Junior Develover...</div>
       </div>
-      <div className="lg:w-1/2 h-3/4 border border-zinc-900">hjjhjh</div>
+      <div className="lg:w-1/2 lg:h-3/4 hidden">hjjhjh</div>
     </div>
   );
 }

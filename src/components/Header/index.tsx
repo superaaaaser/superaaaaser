@@ -11,13 +11,15 @@ export default function Header() {
           </span>
           <span className="text-zinc-100">SuperaseR</span>
         </div>
-
-        <div>
+        <div className="flex flex-row gap-2">
           <Button
             className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium
           "
           >
             Dowload CV
+          </Button>
+          <Button className="border-2 border-black dark:shadow-no-blur-dark dark:border-white dark:text-zinc-100 bg-transparent text-black  font-medium">
+            <i>h</i>
           </Button>
         </div>
       </div>
